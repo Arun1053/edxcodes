@@ -1,0 +1,6 @@
+s = 'azcbobobegghakl'
+count = 0
+for vow in s:
+    if vow == 'a' or vow == 'e' or vow == 'i' or vow == 'o' or vow == 'u':
+        count += 1
+print('Number of vowels: ',count)
